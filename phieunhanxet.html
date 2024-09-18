@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Phiếu Nhận Xét</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Phiếu Nhận Xét</h1>
+    <form action="submit_form.php" method="post">
+        <label for="name">Tên hoặc Nickname:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Địa chỉ Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        
+        <label>Đánh giá:</label><br>
+        <input type="radio" id="good" name="rating" value="good">
+        <label for="good">Hay</label><br>
+        <input type="radio" id="average" name="rating" value="average">
+        <label for="average">Trung bình</label><br>
+        <input type="radio" id="improve" name="rating" value="improve">
+        <label for="improve">Cần phải cải thiện</label><br><br>
+        
+        <label for="comments">Nhận xét:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Gửi">
+        <input type="reset" value="Nhập lại">
+    </form>
+</body>
+</html>

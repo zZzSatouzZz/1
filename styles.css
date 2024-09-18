@@ -1,0 +1,141 @@
+/* Đặt cấu trúc cơ bản */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  /* Tiêu đề chính */
+  h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Định dạng cho đoạn văn */
+  p {
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  /* Bảng (table) */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid #ddd;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  /* Định dạng liên kết */
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Định dạng cho khung (frame) */
+  frame {
+    border: 0;
+  }
+  
+  /* Định dạng danh sách mục lục */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: #e7e7e7;
+    border-radius: 4px;
+  }
+  
+  li a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 8px;
+  }
+  
+  li a:hover {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  /* Định dạng form (biểu mẫu) */
+  form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #2c3e50;
+  }
+  
+  /* Video và hình ảnh */
+  video,
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  
+  /* Định dạng âm thanh */
+  audio {
+    width: 100%;
+  }
